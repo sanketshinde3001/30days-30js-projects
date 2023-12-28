@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+   
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(160deg, #0093E9 10%, #80D0C7 100%);
+}
+
+#main{
+    min-height: 40px;
+    height: 3vmax;
+    width: 60%;
+    max-width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+input{
+    min-height: 30px;
+    height: 1.9vmax;
+    margin-left: 5px;
+    width: 85%;
+    max-width: 340px;
+    border: none;
+    outline: none;
+    font-size: 1vmax;
+}
+
+img{
+    height: 1.5vmax;
+    width: 10%;
+    cursor: pointer;
+}
+
