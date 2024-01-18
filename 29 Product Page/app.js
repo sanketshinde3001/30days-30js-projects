@@ -1,14 +1,13 @@
 let productImg = document.getElementById("productImg");
 let btn = document.getElementsByClassName("btn");
 
-let colors = ""
+let colors = "a"
 
 function colorshirt(color) {
     colors = color;
     productImg.src = `${colors}1.jpg`;
-    }
-    
 }
+    
 
 for (let i = 0; i < btn.length; i++) {
     btn[i].addEventListener("click", function () {
